@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
+
+
+body{margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #000000e8;
+    color: rgb(255, 255, 255);
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    z-index: 10;
+}
+    
+.logo{
+    color: #ff0000e8;
+    font-size: 100px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    font-size: 18px;
+    color: #e72f2f;
+}
+
+/* Hero section */
+.hero{
+    height: 80vh;
+    background: linear-gradient(top, #141414 10%, transparent);
+    background-image:url(https://m.media-amazon.com/images/S/pv-target-images/5c57390c319ef27a7ecb1336ce2fa8d70dc93f814e95530e9302d696ea50c6c8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+
+    display: flex;
+    align-items: center;
+    padding: 60px;
+}
+
+.hero-dest{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-dest h1{
+    font-size: 50px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.play{
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.play:hover{
+    transform:scale(1.09);
+    cursor: pointer;
+}
+
+.info {
+    background-color: #e72f2f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Películas */
+
+.pelis{
+    margin: 20px;
+}
+
+.pelis2{
+   margin: 20px; 
+}
+
+.container{
+    display: flex;
+    gap: 15px;
+}
+
+.container img{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
